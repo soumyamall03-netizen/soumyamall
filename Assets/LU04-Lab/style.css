@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+
+header{
+    color: white;
+    background-image: url(veggies.jpg) ;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d4018;
+    height: 50px;
+}
+
+nav a{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    align-self: center;
+    
+
+}
+
+nav a hover{
+    color: #1d4018;
+    background-color: white;
+}
+
+#banner-text{
+    font-size: 100px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+#savory-snacks{
+    text-align: center;
+}
+
+#author{
+    text-align: center;
+}
+
+#blog-post{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    max-width: 70%;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#blog-image{
+
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+div{
+    border: 2px solid #1d4018;
+    background-color: #a6d0a1;
+    padding: 10px;
+}
+
+
+
+
+
+footer{
+    height: 50px;
+    background-color: #1d4018;
+}
+
+footer a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

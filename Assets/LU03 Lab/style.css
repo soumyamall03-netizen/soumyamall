@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+p{
+   margin-top:  0;
+}
+header{
+    background-color: #5f7470;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+}
+
+nav{
+    background-color: #D2D4C8;
+}
+
+nav a {
+margin-right: 1em;
+}
+h1{
+    color: #889696;
+}
+
+h2{
+    color: #5F7470;
+}
+
+#products-list{
+list-style-type: none;
+color: #5F7470;
+padding: 0;
+}
+
+span{
+    color: #D2D4C8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+footer{
+    background-color: #5F7470;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+}

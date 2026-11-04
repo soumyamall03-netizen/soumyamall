@@ -1,0 +1,160 @@
+body{
+  background-color: #FFF4F5;
+  color: #54202c;
+  font-family:cursive;
+}
+
+nav{
+  background-color: #F4DDE2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #9F2348;
+  border-radius: 8px;
+}
+
+
+#nav{
+  display: inline-block;
+  color: white;
+  background-color: #9F2348;
+  padding: 15px 24px;
+  border-radius: 6px;
+  margin: 5px;
+  text-decoration: none;
+ 
+}
+
+#nav:hover{
+  background-color: #da4966;
+  color: #191970;
+}
+
+footer{
+  padding: 10px;
+  background-color: #F4DDE2;
+  font-size: 15pt;
+  display: flex;
+  align-content: center;
+  border: 2px solid #9F2348;
+  border-radius: 20px
+  
+}
+
+
+/*Home Page*/
+#p1, #p2{
+  display: flex;
+  margin: 50px;
+  gap: 20px;
+  align-items: center;
+  border: 2px solid #5f0518;
+  border-radius: 3px;
+  font-size: 13pt;
+  
+}
+
+p{
+  width: 50%;
+  height: 50%;
+}
+
+/*Certificate Page*/
+#Certificate{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13pt;
+
+}
+
+#certifi{
+  border: 3px solid #9F2348;
+  border-radius: 50px;
+  
+}
+
+/*Projects Page*/
+       
+   
+    .project, #project{
+    text-align: center;
+    padding: 10px;
+    border: 1.5px solid #9F2348;
+   }
+
+  #project:hover{
+ background-color:#F4DDE2;
+ }
+
+ 
+ 
+ 
+
+ /*Skills Page*/
+ #table{
+  padding: 5px;
+  margin:0 auto;
+  
+ 
+ }
+
+ #skill{
+  width: 35%;
+  
+ }
+#skills, #td{
+    text-align: center;
+    padding: 5px;
+   
+}
+
+#skills{
+    background-color:#dc637b
+    
+}
+
+#td {
+    background-color:#F4DDE2;
+    margin: 20px;
+}
+
+#color-change{
+  background-color: #c98a8f;
+}
+
+/*Contact Page*/
+
+#contact{
+  padding: 20px;
+  font-size: 13pt;
+}
+
+
+@media screen and (max-width: 700px){
+  Html{
+    body{
+      padding: 5px;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
+     }  
+     nav{
+      flex-direction: column ;
+      padding:5px 14px;
+      gap: 2px;
+     }
+
+     div{
+      flex-wrap: wrap;
+      text-align: center;
+     }
+
+  
+}}
+
+
